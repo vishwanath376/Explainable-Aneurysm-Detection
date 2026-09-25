@@ -1,0 +1,102 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ================================
+# Virtual environments
+# ================================
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Medical imaging datasets
+# ================================
+data/raw/
+data/processed/
+
+# DICOM
+*.dcm
+
+# Medical imaging formats
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+
+# ================================
+# Large model files
+# ================================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+*.safetensors
+
+# ================================
+# Training outputs
+# ================================
+results/checkpoints/
+results/runs/
+results/logs/
+
+# ================================
+# Temporary/cache files
+# ================================
+*.tmp
+*.temp
+*.cache
+*.log
+
+# ================================
+# OS files
+# ================================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ================================
+# IDE
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# Python build files
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Local configuration
+# ================================
+config.local.yaml
+config.local.yml
+
+# Research paper PDFs - keep locally
+literature/papers/*.pdf
